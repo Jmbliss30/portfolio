@@ -1,7 +1,7 @@
 import React from 'react';
 import './homepage.css';
 
-import mohit from './homepage-bnr.JPEG';
+import mohit from './Mohit.png';
 const Homepage = ({ homeRef }) => {
   return (
     <div className='homepage' ref={homeRef}>

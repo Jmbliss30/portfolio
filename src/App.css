@@ -1,3 +1,7 @@
+* {
+  margin: 0;
+  padding: 0;
+}
 .App {
   text-align: center;
 }
@@ -41,7 +45,7 @@ html {
 }
 
 .master-class {
-  background: url('./assets/wallpaper_page.jpg');
+  background: url('./assets/paper.jpg');
   background-size: contain;
   font-family: 'Delicious Handrawn', cursive;
   width: 100%;
