@@ -1,0 +1,344 @@
+.aboutme {
+  min-height: 500px;
+  /* background: url('./aboutMe.JPG'); */
+}
+.aboutme-wrapper {
+  display: flex;
+}
+.left-sctn {
+  width: 100%;
+}
+.right-sctn {
+  width: 100%;
+}
+.about-height {
+  display: flex;
+  top: 81px;
+  position: relative;
+  align-items: center;
+}
+img.tech-icons {
+  width: 100%;
+  max-width: 142px;
+}
+.image-wrapper {
+  width: 300px !important;
+  display: flex;
+  justify-content: center;
+  margin: auto;
+}
+h3.right-about-me {
+  color: #152636;
+  font-size: 41px;
+  padding-bottom: 18px;
+  text-align: center;
+}
+p.description {
+  font-size: 29px;
+  color: #152636;
+  text-align: left;
+  padding-right: 10px;
+  margin-right: 45px;
+}
+
+@media only screen and (min-width: 810px) and (max-width: 1130px) {
+  p.description {
+    font-size: 28px;
+    color: #152636;
+    text-align: left;
+    padding-right: 10px;
+    margin-right: 45px;
+  }
+  img.tech-icons {
+    width: 100%;
+    max-width: 122px;
+  }
+  .aboutme {
+    min-height: 640px;
+  }
+}
+@media only screen and (min-width: 650px) and (max-width: 810px) {
+  p.description {
+    font-size: 26px;
+    color: #152636;
+    text-align: left;
+    padding-right: 10px;
+    margin-right: 45px;
+  }
+  .left-sctn {
+    width: 40%;
+  }
+  .right-sctn {
+    width: 60%;
+  }
+  img.tech-icons {
+    width: 100%;
+    max-width: 89px;
+  }
+  .aboutme {
+    min-height: 762px;
+  }
+  .image-wrapper {
+    width: 300px !important;
+    display: flex;
+    justify-content: space-evenly;
+    margin: auto;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: stretch;
+    align-items: flex-start;
+    margin-left: 50px;
+  }
+}
+@media only screen and (min-width: 512px) and (max-width: 650px) {
+  p.description {
+    font-size: 17px;
+    color: #152636;
+    text-align: left;
+    padding-right: 0px;
+    margin-right: 16px;
+  }
+  .left-sctn {
+    width: 30%;
+  }
+  .right-sctn {
+    width: 70%;
+  }
+  h3.right-about-me {
+    color: #152636;
+    font-size: 36px;
+    padding-bottom: 18px;
+    text-align: center;
+    margin-right: 105px;
+  }
+  img.tech-icons {
+    width: 100%;
+    max-width: 89px;
+  }
+  .aboutme {
+    min-height: 499px;
+  }
+  .image-wrapper {
+    width: 300px !important;
+    display: flex;
+    justify-content: space-evenly;
+    margin: auto;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: stretch;
+    align-items: flex-start;
+    margin-left: 50px;
+  }
+}
+
+@media only screen and (min-width: 474px) and (max-width: 512px) {
+  p.description {
+    font-size: 15px;
+    color: #152636;
+    text-align: left;
+    padding-right: 0px;
+    margin-right: 69px;
+  }
+  .about-bnr {
+    width: 302px;
+  }
+  .left-sctn {
+    width: 30%;
+  }
+  .right-sctn {
+    width: 70%;
+  }
+  h3.right-about-me {
+    color: #152636;
+    font-size: 36px;
+    padding-bottom: 18px;
+    text-align: center;
+    margin-right: 105px;
+  }
+  img.tech-icons {
+    width: 100%;
+    max-width: 76px;
+  }
+  .aboutme {
+    min-height: 530px;
+  }
+  .image-wrapper {
+    width: 300px !important;
+    display: flex;
+    justify-content: space-evenly;
+    margin: auto;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: stretch;
+    align-items: flex-start;
+    margin-left: 50px;
+  }
+}
+@media only screen and (min-width: 413px) and (max-width: 474px) {
+  p.description {
+    font-size: 14px;
+    color: #152636;
+    text-align: left;
+    padding-right: 0px;
+    margin-right: 69px;
+  }
+  .left-sctn {
+    width: 20%;
+  }
+  .right-sctn {
+    width: 80%;
+  }
+  h3.right-about-me {
+    color: #152636;
+    font-size: 24px;
+    padding-bottom: 18px;
+    text-align: center;
+    margin-right: 105px;
+  }
+  img.tech-icons {
+    width: 100%;
+    max-width: 47px;
+  }
+  .aboutme {
+    min-height: 436px;
+  }
+  .image-wrapper {
+    width: 300px !important;
+    display: flex;
+    justify-content: space-evenly;
+    margin: auto;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: stretch;
+    align-items: flex-start;
+    margin-left: 29px;
+  }
+}
+@media only screen and (min-width: 389px) and (max-width: 413px) {
+  p.description {
+    font-size: 14px;
+    color: #152636;
+    text-align: left;
+    padding-right: 0px;
+    margin-right: 69px;
+  }
+  .left-sctn {
+    width: 20%;
+  }
+  .right-sctn {
+    width: 80%;
+  }
+  h3.right-about-me {
+    color: #152636;
+    font-size: 24px;
+    padding-bottom: 18px;
+    text-align: center;
+    margin-right: 105px;
+  }
+  img.tech-icons {
+    width: 100%;
+    max-width: 47px;
+  }
+  .aboutme {
+    min-height: 637px;
+  }
+  .image-wrapper {
+    width: 300px !important;
+    display: flex;
+    justify-content: space-evenly;
+    margin: auto;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: stretch;
+    align-items: flex-start;
+    margin-left: 29px;
+  }
+  .about-bnr {
+    width: 360px;
+  }
+}
+
+@media only screen and (min-width: 290px) and (max-width: 388px) {
+  p.description {
+    font-size: 11px;
+    color: #152636;
+    text-align: left;
+    padding-right: 0px;
+    margin-right: 120px;
+    padding-right: 80px;
+  }
+  .left-sctn {
+    width: 15%;
+  }
+  .about-bnr {
+    width: 401px;
+  }
+  .right-sctn {
+    width: 85%;
+  }
+  h3.right-about-me {
+    color: #152636;
+    font-size: 19px;
+    padding-bottom: 18px;
+    text-align: center;
+    margin-right: 105px;
+  }
+  img.tech-icons {
+    width: 100%;
+    max-width: 31px;
+  }
+  .aboutme {
+    min-height: 347px;
+  }
+  .image-wrapper {
+    width: 300px !important;
+    display: flex;
+    justify-content: space-evenly;
+    margin: auto;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: stretch;
+    align-items: flex-start;
+    margin-left: 29px;
+  }
+}
+@media only screen and (min-width: 388px) and (max-width: 413px) {
+  p.description {
+    font-size: 13px;
+    color: #152636;
+    text-align: left;
+    padding-right: 0px;
+    margin-right: 120px;
+  }
+  .left-sctn {
+    width: 20%;
+  }
+  .right-sctn {
+    width: 80%;
+  }
+  h3.right-about-me {
+    color: #152636;
+    font-size: 21px;
+    padding-bottom: 18px;
+    text-align: center;
+    margin-right: 105px;
+  }
+  img.tech-icons {
+    width: 100%;
+    max-width: 43px;
+  }
+  .aboutme {
+    min-height: 320px;
+  }
+  .image-wrapper {
+    width: 300px !important;
+    display: flex;
+    justify-content: space-evenly;
+    margin: auto;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: stretch;
+    align-items: flex-start;
+    margin-left: 29px;
+  }
+}

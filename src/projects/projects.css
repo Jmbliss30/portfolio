@@ -1,0 +1,351 @@
+.projects-wrapper {
+  min-height: 250px;
+  background: border-box;
+  margin-bottom: 69px;
+  margin-top: 69px;
+}
+.project-dash {
+  display: flex;
+  flex-wrap: wrap;
+  margin: auto;
+  justify-content: center;
+}
+a.src-UserCard-styles-module__card-link--1C9Mt {
+  border: 3.5px #1e1e308a dashed;
+  border-radius: 28.5px;
+  margin-left: 15px;
+}
+.src-Card-styles-module__card--1s_T3 {
+  position: relative;
+  max-width: 100%;
+  width: 250px;
+  min-width: 250px;
+  min-height: 350px;
+  display: flex;
+  flex-flow: column;
+  background-color: #ffcc33a8 !important;
+  border-radius: 0.25rem;
+  margin: 1rem;
+  user-select: none;
+  transition: 0.25s;
+}
+.src-UserCard-UserCardBody-styles-module__user-card-body--1Ox5y
+  .src-UserCard-UserCardBody-styles-module__user-card-name--x7M0V {
+  display: flex;
+  justify-content: center;
+  font-size: 2rem !important;
+  margin-bottom: 0.25rem;
+  color: #2c3e50;
+}
+.src-UserCard-UserCardBody-styles-module__user-card-body--1Ox5y
+  .src-UserCard-UserCardBody-styles-module__user-card-position-name--1MZBj {
+  display: flex;
+  justify-content: center;
+  font-size: 22px;
+  color: black;
+}
+h4.project-title {
+  color: #152636;
+  font-size: 46px;
+  text-align: center;
+  margin-top: 21px;
+  margin-bottom: 22px;
+}
+.src-Card-styles-module__card--1s_T3 {
+  position: relative;
+  max-width: 100%;
+  width: 300px !important;
+  min-width: 250px;
+  min-height: 399px !important;
+  display: flex;
+  flex-flow: column;
+  background-color: #ecf0f1;
+  border-radius: 0.25rem;
+  margin: 1rem;
+  user-select: none;
+  transition: 0.25s;
+}
+
+/* GPA block */
+
+.gp-block .position-relative.rt-box {
+  min-width: 142px !important;
+}
+.gp-block {
+  background: #152636 56%;
+}
+.gp-block .row .col-6 {
+  color: #fff;
+  padding: 40px 0;
+}
+.gp-block select.form-control.form-select.private.form-select.form-select-lg {
+  margin: auto;
+  margin-top: 10px;
+}
+.gp-block {
+  padding: 0 10px;
+}
+.gpablock svg.rc-progress-circle {
+  max-height: 140px; /*changed for promo*/
+  margin: auto;
+  display: block;
+}
+.gpablock svg.rc-progress-circle {
+  max-height: 115px !important;
+}
+.prof-val67 span {
+  display: inline-block;
+  padding-bottom: 3px;
+}
+.prof-val67 {
+  display: inline-block;
+  color: #fff;
+  position: absolute;
+  top: calc(33% - 25px);
+  left: calc(50% - 20px);
+  font-size: 20px;
+  min-width: 39px;
+  text-align: center;
+}
+#profile-edu .semester-credit.profile-education.pt-5,
+#profile-edu .resourse-component {
+  background-color: transparent;
+}
+.semester-credit tr {
+  color: #fff;
+}
+.semester-credit tr td {
+  border-bottom: none !important;
+  padding: 12px 0;
+  font-size: 18px;
+}
+.semester-credit.py-5 {
+  background: linear-gradient(180deg, #152636 50%, #45647c 140%);
+}
+.semester-credit tr td {
+  font-size: 12px !important;
+}
+.semester-table .table-sm {
+  display: block;
+  max-width: -moz-fit-content;
+  max-width: fit-content;
+  overflow-x: auto;
+  white-space: nowrap;
+}
+.resfield,
+.resfield:focus,
+.resfield::placeholder {
+  background-color: transparent;
+  border: none;
+  text-align: center;
+  color: #fff;
+  box-shadow: none;
+}
+input.resfield.form-control {
+  background-color: none !important;
+}
+.drags-lists .form-control {
+  padding-left: 35px;
+  text-align: left;
+  background: none;
+}
+
+.credits-input,
+.credits-input:focus {
+  max-width: 40px;
+  background-color: transparent;
+  border: none;
+  color: #fff;
+  text-transform: uppercase;
+}
+.block-container {
+  max-width: 790px;
+  margin: auto;
+  margin-top: 54px;
+}
+select.form-control.form-select.private.form-select.form-select-lg {
+  color: green;
+  max-width: 193px;
+  width: 100%;
+  text-align: center;
+  margin-top: 25px;
+  margin-bottom: 30px !important;
+  font-size: 17px;
+  font-weight: 700;
+}
+button.btn.btn-primary {
+  display: none;
+}
+select.text-white.form-select {
+  width: 59px;
+}
+select.Aclass.form-select {
+  width: 60px;
+}
+select.Fclass.form-select {
+  width: 59px;
+}
+th.ps-3 {
+  padding-right: 41px;
+}
+th {
+  padding-right: 19px;
+}
+
+/* player */
+.songs-list {
+  color: white;
+  cursor: pointer;
+  margin: auto;
+  width: 100%;
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+.title {
+  color: white;
+  text-align: center;
+  margin-top: 50px;
+}
+/* dashboard */
+
+.dashsec {
+  margin: 0 auto;
+  width: 100%;
+}
+.buttonsarea {
+  display: flex;
+  flex-direction: row-reverse;
+  width: 100%;
+}
+.addalbumarea {
+  width: 50%;
+  text-align: right;
+}
+table.crudTable {
+  width: 100%;
+  margin: auto;
+}
+.companysec {
+  width: 100%;
+  height: 100%;
+  background: white;
+  min-height: 588px;
+  max-width: 780px;
+  margin: auto;
+  margin-top: 60px;
+}
+button.addalbum {
+  margin-top: 22px;
+  margin-right: 27px;
+}
+.albumnamearea {
+  height: 100%;
+}
+
+.popup-box {
+  margin: auto;
+  position: fixed;
+  background: #808080;
+  width: 80%;
+  max-width: 488px;
+  overflow: auto;
+  height: 100%;
+  max-height: 548px;
+  top: 20px;
+  left: 0;
+  right: 0;
+  /* display: flex; */
+  /* align-items: center; */
+}
+.box {
+  position: relative;
+  width: 100%;
+  margin: 0 auto;
+  height: auto;
+  max-height: 70vh;
+  margin-top: calc(100vh - 85vh - 20px);
+  background: #fff;
+  border-radius: 4px;
+  padding: 20px;
+  border: 1px solid #999;
+  overflow: auto;
+}
+p.conformpara {
+  margin-top: 20px;
+  text-transform: capitalize;
+}
+.confromsure {
+  text-align: center;
+}
+button.yesdel {
+  text-transform: capitalize;
+  border: none;
+  background: cornflowerblue;
+  color: white;
+  padding: 4px 12px;
+  border-radius: 4px;
+}
+.delpara {
+  text-transform: capitalize;
+  border: none;
+  background: #d3d9df;
+  /* color: white; */
+  height: 100%;
+  min-height: 159px;
+  padding: 4px 12px;
+  border-radius: 4px;
+}
+
+@media only screen and (min-width: 810px) and (max-width: 950px) {
+  .projects-wrapper {
+    min-height: 250px;
+    background: border-box;
+    margin-bottom: 69px;
+    margin-top: 108px;
+  }
+}
+@media only screen and (min-width: 683px) and (max-width: 810px) {
+  .projects-wrapper {
+    min-height: 250px;
+    background: border-box;
+    margin-bottom: 69px;
+    margin-top: 0px;
+  }
+}
+@media only screen and (min-width: 400px) and (max-width: 683px) {
+  h4.project-title {
+    color: #152636;
+    font-size: 35px;
+    text-align: center;
+    margin-top: 21px;
+    margin-bottom: 32px;
+  }
+  .projects-wrapper {
+    min-height: 250px;
+    background: border-box;
+    margin-bottom: 69px;
+    margin-top: 0px !important;
+  }
+}
+
+@media only screen and (min-width: 250px) and (max-width: 385px) {
+  h4.project-title {
+    color: #152636;
+    font-size: 30px;
+    text-align: center;
+    margin-top: 21px;
+    margin-bottom: 32px;
+  }
+  .projects-wrapper {
+    min-height: 250px;
+    background: border-box;
+    margin-bottom: 69px;
+    margin-top: 0px !important;
+  }
+  .src-Card-styles-module__card--1s_T3 {
+    position: relative;
+    max-width: 100%;
+    width: 252px !important;
+  }
+}
