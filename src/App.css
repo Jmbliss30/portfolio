@@ -46,7 +46,7 @@ html {
 
 .master-class {
   background: url('./assets/paper.jpg');
-  background-size: contain;
+  background-size: auto;
   font-family: 'Delicious Handrawn', cursive;
   width: 100%;
 }
