@@ -605,7 +605,6 @@ const GPA = () => {
                                             src='../assets/Save.svg'
                                             alt='trash edit'
                                             onClick={async () => {
-                                              await handlePen();
                                               setCheckIndex(course.id);
                                             }}
                                             className='editpen'
@@ -616,7 +615,7 @@ const GPA = () => {
                                             onClick={async () => {
                                               await setFocusIndex(course.id);
                                               setInputFocus();
-                                              handlePen();
+
                                               setCheckIndex(course.id);
                                             }}
                                             className='editpen'
