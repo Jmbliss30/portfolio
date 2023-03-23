@@ -44,5 +44,5 @@ html {
   background: url('./assets/wallpaper_page.jpg');
   background-size: contain;
   font-family: 'Delicious Handrawn', cursive;
-  max-width: 1900px;
+  width: 100%;
 }
