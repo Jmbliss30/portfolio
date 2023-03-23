@@ -2,7 +2,7 @@ import React, { useState, useRef, useEffect } from 'react';
 import { Container, Button, Table, Form } from 'react-bootstrap';
 import { Col, Row, Modal } from 'react-bootstrap';
 import { Circle } from 'rc-progress';
-import axios from 'axios';
+
 import '../projects.css';
 
 const GPA = () => {
