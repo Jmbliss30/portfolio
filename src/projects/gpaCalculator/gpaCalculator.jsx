@@ -149,40 +149,6 @@ const GPA = () => {
     },
   ]);
 
-  useEffect(() => {
-    const fetchGPAData = async (email) => {
-      try {
-        const url = `${process.env.REACT_APP_BASE_URL}/api/gpa/` + email;
-        const userGPAData = await axios.get(url);
-        if (userGPAData.status !== 401)
-          setSemesters(userGPAData.data.semesters);
-        else setSemesters(semesters);
-      } catch (err) {
-        console.log(err);
-      }
-    };
-    if (user !== undefined) {
-      fetchGPAData(user.email);
-    }
-  }, []);
-
-  useEffect(() => {
-    const saveGPAData = async (email) => {
-      try {
-        const url = `${process.env.REACT_APP_BASE_URL}/api/gpa/` + email;
-        await axios.post(url, semesters);
-      } catch (err) {
-        console.log(err);
-      }
-    };
-    if (user !== undefined) {
-      saveGPAData(user.email);
-    }
-  }, [semesters]);
-  const handlePen = () => {
-    setSwitchPen(!switchPen);
-  };
-
   const handleChange = (value, semesterId, courseId, type) => {
     const updatedSemesters = semesters.map((semester) => {
       if (semester.id == semesterId) {
